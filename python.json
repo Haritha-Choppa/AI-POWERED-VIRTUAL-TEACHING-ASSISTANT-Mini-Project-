@@ -1,0 +1,161 @@
+{
+    "explain python reverse a string step by step": {
+        "description": "This program reverses a string and prints the reversed string.",
+        "steps": [
+            "Step 1: Define the string to be reversed.",
+            "Step 2: Use slicing [::-1] to reverse the string.",
+            "Step 3: Print the reversed string on a new line."
+        ],
+        "code": "string = 'Python'\nreversed_string = string[::-1]\nprint('Reversed string:', reversed_string)"
+    },
+    "explain python sum of n natural numbers step by step": {
+        "description": "This program calculates and prints the sum of first n natural numbers.",
+        "steps": [
+            "Step 1: Take input n for the number of natural numbers.",
+            "Step 2: Initialize sum variable to 0.",
+            "Step 3: Loop from 1 to n, adding each number to sum.",
+            "Step 4: Print the sum on a new line."
+        ],
+        "code": "n = 10\nsum = 0\nfor i in range(1, n+1):\n    sum += i\nprint('Sum of first', n, 'natural numbers is:', sum)"
+    },
+    "explain python linear search step by step": {
+        "description": "This program searches for a specific element in a list using linear search and prints result.",
+        "steps": [
+            "Step 1: Define a list of elements.",
+            "Step 2: Define the element to search for.",
+            "Step 3: Loop through the list and check if element matches.",
+            "Step 4: Print the index if found, else print not found."
+        ],
+        "code": "arr = [10, 20, 30, 40, 50]\nsearch = 30\nfound = False\nfor i in range(len(arr)):\n    if arr[i] == search:\n        print(search, 'found at index', i)\n        found = True\n        break\nif not found:\n    print(search, 'not found')"
+    },
+    "explain python bubble sort step by step": {
+        "description": "This program sorts a list using Bubble Sort and prints the sorted list.",
+        "steps": [
+            "Step 1: Define the list to be sorted.",
+            "Step 2: Use two nested loops to compare adjacent elements.",
+            "Step 3: Swap elements if the previous element is greater.",
+            "Step 4: After sorting, print each element on a new line."
+        ],
+        "code": "arr = [64, 34, 25, 12, 22, 11, 90]\nn = len(arr)\nfor i in range(n):\n    for j in range(0, n-i-1):\n        if arr[j] > arr[j+1]:\n            arr[j], arr[j+1] = arr[j+1], arr[j]\nfor num in arr:\n    print(num)"
+    },
+    "explain python binary search step by step": {
+        "description": "This program searches for an element in a sorted list using binary search and prints the result.",
+        "steps": [
+            "Step 1: Define a sorted list and the element to search.",
+            "Step 2: Initialize start and end indices.",
+            "Step 3: Loop while start <= end, find middle element.",
+            "Step 4: If middle equals search element, print index.",
+            "Step 5: Adjust start or end based on comparison.",
+            "Step 6: If element not found, print not found."
+        ],
+        "code": "arr = [10, 20, 30, 40, 50]\nsearch = 40\nstart = 0\nend = len(arr) - 1\nfound = False\nwhile start <= end:\n    mid = (start + end) // 2\n    if arr[mid] == search:\n        print(search, 'found at index', mid)\n        found = True\n        break\n    elif arr[mid] < search:\n        start = mid + 1\n    else:\n        end = mid - 1\nif not found:\n    print(search, 'not found')"
+    },
+    "explain python matrix addition step by step": {
+        "description": "This program adds two matrices of same dimensions and prints the result matrix.",
+        "steps": [
+            "Step 1: Define two matrices of same size.",
+            "Step 2: Initialize a result matrix with zeros.",
+            "Step 3: Loop through rows and columns, adding corresponding elements.",
+            "Step 4: Print each row of result matrix on a new line."
+        ],
+        "code": "A = [[1,2,3],[4,5,6],[7,8,9]]\nB = [[9,8,7],[6,5,4],[3,2,1]]\nresult = [[0,0,0],[0,0,0],[0,0,0]]\nfor i in range(len(A)):\n    for j in range(len(A[0])):\n        result[i][j] = A[i][j] + B[i][j]\nfor row in result:\n    print(row)"
+    },
+    "explain python string palindrome check step by step": {
+        "description": "This program checks whether a string is a palindrome and prints the result.",
+        "steps": [
+            "Step 1: Define the string to check.",
+            "Step 2: Reverse the string using slicing [::-1].",
+            "Step 3: Compare original and reversed strings.",
+            "Step 4: Print True if palindrome, else False."
+        ],
+        "code": "word = 'radar'\nif word == word[::-1]:\n    print(word, 'is palindrome')\nelse:\n    print(word, 'is not palindrome')"
+    },
+
+
+    "explain python print hello world step by step": {
+        "description": "This program prints 'Hello, World!' to the console, which is usually the first program for beginners.",
+        "steps": [
+            "Step 1: Use the print() function to display text.",
+            "Step 2: Pass the string 'Hello, World!' as an argument.",
+            "Step 3: Run the program. The text will appear on the console."
+        ],
+        "code": "print('Hello, World!')"
+    },
+    "explain python add two numbers step by step": {
+        "description": "This program takes two numbers and prints their sum.",
+        "steps": [
+            "Step 1: Take input for the first number and convert it to integer.",
+            "Step 2: Take input for the second number and convert it to integer.",
+            "Step 3: Add the two numbers.",
+            "Step 4: Print the result on a new line."
+        ],
+        "code": "num1 = int(input('Enter first number: '))\nnum2 = int(input('Enter second number: '))\nsum = num1 + num2\nprint('Sum:', sum)"
+    },
+    "explain python subtract two numbers step by step": {
+        "description": "This program takes two numbers and prints their difference.",
+        "steps": [
+            "Step 1: Take input for the first number and convert it to integer.",
+            "Step 2: Take input for the second number and convert it to integer.",
+            "Step 3: Subtract the second number from the first.",
+            "Step 4: Print the result on a new line."
+        ],
+        "code": "num1 = int(input('Enter first number: '))\nnum2 = int(input('Enter second number: '))\ndiff = num1 - num2\nprint('Difference:', diff)"
+    },
+    "explain python multiply two numbers step by step": {
+        "description": "This program multiplies two numbers and prints the result.",
+        "steps": [
+            "Step 1: Take input for first number.",
+            "Step 2: Take input for second number.",
+            "Step 3: Multiply the two numbers.",
+            "Step 4: Print the result on a new line."
+        ],
+        "code": "num1 = int(input('Enter first number: '))\nnum2 = int(input('Enter second number: '))\nproduct = num1 * num2\nprint('Product:', product)"
+    },
+    "explain python divide two numbers step by step": {
+        "description": "This program divides two numbers and prints the result.",
+        "steps": [
+            "Step 1: Take input for first number.",
+            "Step 2: Take input for second number.",
+            "Step 3: Divide the first number by the second.",
+            "Step 4: Print the result on a new line."
+        ],
+        "code": "num1 = int(input('Enter first number: '))\nnum2 = int(input('Enter second number: '))\nif num2 != 0:\n    result = num1 / num2\n    print('Division result:', result)\nelse:\n    print('Error: Cannot divide by zero')"
+    },
+    "explain python find largest of two numbers step by step": {
+        "description": "This program finds the largest of two numbers.",
+        "steps": [
+            "Step 1: Take input for first number.",
+            "Step 2: Take input for second number.",
+            "Step 3: Use if-else to compare the numbers.",
+            "Step 4: Print the largest number."
+        ],
+        "code": "num1 = int(input('Enter first number: '))\nnum2 = int(input('Enter second number: '))\nif num1 > num2:\n    print(num1, 'is largest')\nelse:\n    print(num2, 'is largest')"
+    },
+    "explain python check even or odd step by step": {
+        "description": "This program checks if a number is even or odd.",
+        "steps": [
+            "Step 1: Take input for a number.",
+            "Step 2: Use modulo operator (%) to check remainder when divided by 2.",
+            "Step 3: If remainder is 0, number is even, else odd.",
+            "Step 4: Print the result."
+        ],
+        "code": "num = int(input('Enter a number: '))\nif num % 2 == 0:\n    print(num, 'is even')\nelse:\n    print(num, 'is odd')"
+    },
+    "explain python simple for loop step by step": {
+        "description": "This program prints numbers from 1 to 5 using a for loop.",
+        "steps": [
+            "Step 1: Use a for loop from 1 to 5.",
+            "Step 2: Print each number on a new line."
+        ],
+        "code": "for i in range(1, 6):\n    print(i)"
+    },
+    "explain python simple while loop step by step": {
+        "description": "This program prints numbers from 1 to 5 using a while loop.",
+        "steps": [
+            "Step 1: Initialize a variable i to 1.",
+            "Step 2: Loop while i <= 5.",
+            "Step 3: Print i and increment it by 1."
+        ],
+        "code": "i = 1\nwhile i <= 5:\n    print(i)\n    i += 1"
+    }
+}

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>AI Assistant — Single File</title>
+<style>
+  /* ----- Reset & base ----- */
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    color:#fff; overflow:hidden;
+    background:linear-gradient(-45deg,#6f2dbd,#134e7b,#ff6b6b,#4cc9f0);
+    background-size:400% 400%;
+    animation:grad 14s ease infinite;
+  }
+  @keyframes grad{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+  /* container */
+  .wrap{display:flex;height:100vh;gap:20px;padding:20px}
+
+  /* sidebar (left) */
+  .sidebar{
+    width:260px;background:rgba(255,255,255,0.08);backdrop-filter:blur(8px);
+    border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px;
+    border:1px solid rgba(255,255,255,0.06)
+  }
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo img{width:48px;height:48px;border-radius:50%;object-fit:cover;cursor:pointer}
+  .logo h2{font-size:18px;letter-spacing:0.2px}
+  .btn{border:none;padding:10px 12px;border-radius:10px;cursor:pointer;background:linear-gradient(90deg,#ff6b6b,#7209b7);color:#fff;font-weight:600}
+  .search-chats{margin-top:6px}
+  .search-chats .search-wrap{display:flex;gap:8px;align-items:center}
+  .search-chats input{flex:1;padding:8px 10px;border-radius:10px;border:none;background:rgba(255,255,255,0.06);color:#fff}
+  .search-chats .mic-small{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,0.06);cursor:pointer;border:1px solid rgba(255,255,255,0.04)}
+  .voice-options{background:rgba(255,255,255,0.03);padding:10px;border-radius:10px}
+  .voice-options label{display:inline-flex;gap:8px;align-items:center;margin-right:10px;cursor:pointer}
+  .chat-history{flex:1;overflow:auto;margin-top:6px}
+  .chat-item{padding:10px;border-radius:10px;margin-bottom:8px;background:rgba(255,255,255,0.03);cursor:pointer}
+  .chat-item:hover{background:rgba(255,255,255,0.06)}
+
+  /* middle chat area */
+  .main{
+    flex:1;display:flex;flex-direction:column;gap:12px;background:rgba(255,255,255,0.06);
+    border-radius:16px;padding:18px;position:relative;backdrop-filter:blur(6px);
+    border:1px solid rgba(255,255,255,0.05)
+  }
+  .main header{display:flex;align-items:center;justify-content:space-between}
+  .main header h1{font-size:18px}
+  .profile-icon{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,0.2);cursor:pointer}
+
+  .chat-area{flex:1;overflow:auto;padding:10px;display:flex;flex-direction:column;gap:10px}
+  .bubble{max-width:68%;padding:12px 14px;border-radius:14px;line-height:1.35}
+  .bubble.user{align-self:flex-start;background:linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,0.03)}
+  .bubble.assistant{align-self:flex-end;background:linear-gradient(90deg,#7c3aed,#4f46e5);box-shadow:0 6px 18px rgba(80,50,200,0.18)}
+
+  /* bottom input area */
+  .bottom{display:flex;flex-direction:column;gap:10px}
+  .modes{display:flex;justify-content:center;gap:8px}
+  .mode-btn{padding:10px 12px;border-radius:999px;border:none;background:rgba(255,255,255,0.06);cursor:pointer;color:#fff;font-weight:600}
+  .mode-btn.active{background:linear-gradient(90deg,#4cc9f0,#7209b7);color:#000}
+  .input-row{display:flex;gap:10px;align-items:center}
+  .input-row input{flex:1;padding:12px;border-radius:12px;border:none;background:rgba(255,255,255,0.03);color:#fff}
+  .icon-btn{width:46px;height:46px;border-radius:50%;border:none;background:rgba(255,255,255,0.04);cursor:pointer;display:grid;place-items:center}
+
+  /* profile panel slide-in (right) */
+  .profile-panel{
+    position:fixed;right:-360px;top:60px;width:320px;height:70vh;background:rgba(0,0,0,0.45);backdrop-filter:blur(8px);
+    border-radius:12px;padding:16px;border:1px solid rgba(255,255,255,0.06);transition:right .35s ease;z-index:60
+  }
+  .profile-panel.show{right:24px}
+  .profile-panel h3{margin-bottom:10px}
+  .profile-panel input{width:100%;padding:10px;border-radius:8px;border:none;margin-bottom:8px;background:rgba(255,255,255,0.03);color:#fff}
+
+  /* center listening overlay */
+  .overlay{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:50}
+  .overlay.show{display:flex}
+  .overlay .dim{position:absolute;inset:0;background:rgba(0,0,0,0.36);backdrop-filter:blur(3px)}
+  .listen-box{
+    position:relative;z-index:55;width:220px;height:220px;border-radius:50%;display:grid;place-items:center;
+    background:radial-gradient(circle at 30% 20%, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+    box-shadow:0 18px 60px rgba(0,0,0,0.45);transform:translateY(-30px)
+  }
+  .avatar-circle{width:120px;height:120px;border-radius:50%;background:conic-gradient(#4cc9f0,#7209b7,#ff6b6b,#4cc9f0);display:grid;place-items:center;color:#fff;font-weight:700;font-size:18px}
+  /* pulse */
+  .pulse-outer, .pulse-middle, .pulse-inner{position:absolute;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%)}
+  .pulse-outer{width:300px;height:300px;background:rgba(76,201,240,0.12);animation:pulse 1.6s infinite}
+  .pulse-middle{width:240px;height:240px;background:rgba(114,9,183,0.09);animation:pulse 1.6s .2s infinite}
+  .pulse-inner{width:180px;height:180px;background:rgba(255,107,107,0.06);animation:pulse 1.6s .4s infinite}
+  @keyframes pulse{0%{transform:translate(-50%,-50%) scale(.85);opacity:1}70%{transform:translate(-50%,-50%) scale(1.15);opacity:0}100%{opacity:0}}
+
+  /* center small mic control while overlay inside */
+  .overlay-controls{position:fixed;bottom:36px;left:50%;transform:translateX(-50%);z-index:70;display:flex;gap:14px}
+  .stop-btn{width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,0.95);color:#000;border:none;cursor:pointer;font-weight:700}
+
+  /* dim chat while listening */
+  .dim-chat{filter:blur(2px) brightness(.55);transition:all .25s}
+
+  /* small helpers */
+  .muted{opacity:.78;font-size:13px;color:rgba(255,255,255,0.9)}
+  .sidebar .small-row{display:flex;gap:8px;align-items:center;margin-top:6px}
+  .no-select{user-select:none}
+  /* responsive */
+  @media (max-width:900px){.sidebar{display:none}.profile-panel{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img id="logoImg" src="" alt="logo" title="Logo (no profile open)" />
+      <div>
+        <h2>AI Assistant</h2>
+        <div class="muted">Design · Demo</div>
+      </div>
+    </div>
+
+    <button id="newChatBtn" class="btn">+ New Chat</button>
+
+    <div class="search-chats">
+      <div class="search-wrap">
+        <input id="searchInput" placeholder="Search previous chats..." />
+        <div class="mic-small" id="searchMic" title="Use mic to speak to search">🎙️</div>
+      </div>
+    </div>
+
+    <div class="voice-options">
+      <div class="muted" style="margin-bottom:8px">Voice Mode</div>
+      <div>
+        <label><input type="radio" name="voice" value="male" checked /> Male</label>
+        <label><input type="radio" name="voice" value="female" style="margin-left:12px" /> Female</label>
+      </div>
+    </div>
+
+    <div class="chat-history">
+      <div class="muted">Previous Chats</div>
+      <div id="chatList"></div>
+    </div>
+  </aside>
+
+  <!-- MAIN / MIDDLE -->
+  <main class="main">
+    <header>
+      <h1>AI Assistant Chat</h1>
+      <img id="topProfile" class="profile-icon" src="" alt="me" title="Open profile" />
+    </header>
+
+    <div id="chatArea" class="chat-area"></div>
+
+    <div class="bottom">
+      <div class="modes">
+        <button class="mode-btn active" data-mode="text2text">Text → Text</button>
+        <button class="mode-btn" data-mode="text2speech">Text → Speech</button>
+        <button class="mode-btn" data-mode="speech2text">Speech → Text</button>
+        <button class="mode-btn" data-mode="speech2speech">Speech → Speech</button>
+      </div>
+
+      <div class="input-row">
+        <input id="userInput" placeholder="Welcome to AI Assistant..." autocomplete="off"/>
+        <button id="inputMic" class="icon-btn" title="Mic (speech-to-text)">🎙️</button>
+        <button id="sendBtn" class="icon-btn" title="Send">➤</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- PROFILE PANEL (slide in from right) -->
+  <div id="profilePanel" class="profile-panel">
+    <h3>Your Profile</h3>
+    <input id="profileName" placeholder="Name" value="Haritha" />
+    <input id="profileEmail" placeholder="Email" value="haritha@example.com" />
+    <div class="muted">Theme</div>
+    <select id="themeSelect" style="width:100%;padding:8px;border-radius:8px;margin-top:6px;background:rgba(255,255,255,0.03);color:#ee3d3d;border:none">
+      <option value="default">Sunset</option>
+      <option value="ocean">Ocean</option>
+      <option value="galaxy">Galaxy</option>
+      <option value="forest">Forest</option>
+    </select>
+    <div style="margin-top:12px;display:flex;gap:8px">
+      <button id="saveProfile" class="btn" style="flex:1">Save</button>
+      <button id="closeProfile" class="btn" style="flex:1;background:#ef4444">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- CENTER LISTENING OVERLAY -->
+<div id="overlay" class="overlay" aria-hidden="true">
+  <div class="dim"></div>
+  <div class="listen-box">
+    <div class="pulse-outer"></div>
+    <div class="pulse-middle"></div>
+    <div class="pulse-inner"></div>
+    <div class="avatar-circle no-select" id="listenLabel">Listening...</div>
+  </div>
+</div>
+
+<!-- STOP controls -->
+<div id="overlayControls" class="overlay-controls" style="display:none">
+  <button id="stopBtn" class="stop-btn">Stop</button>
+</div>
+
+<script>
+/* ----------------------- Utilities / State ----------------------- */
+const chatArea = document.getElementById('chatArea');
+const sendBtn = document.getElementById('sendBtn');
+const userInput = document.getElementById('userInput');
+const modes = document.querySelectorAll('.mode-btn');
+const inputMic = document.getElementById('inputMic');
+const searchMic = document.getElementById('searchMic');
+const profilePanel = document.getElementById('profilePanel');
+const topProfile = document.getElementById('topProfile');
+const profileName = document.getElementById('profileName');
+const profileEmail = document.getElementById('profileEmail');
+const closeProfile = document.getElementById('closeProfile');
+const saveProfile = document.getElementById('saveProfile');
+const overlay = document.getElementById('overlay');
+const overlayControls = document.getElementById('overlayControls');
+const stopBtn = document.getElementById('stopBtn');
+const chatListDiv = document.getElementById('chatList');
+const newChatBtn = document.getElementById('newChatBtn');
+const themeSelect = document.getElementById('themeSelect');
+
+let currentMode = 'text2text';
+let listening = false;
+let recognition = null;
+let speechVoiceGender = 'male';
+let currentChat = { id: Date.now(), messages: [] };
+const STORAGE_KEY = 'ai_assistant_chats_v1';
+
+/* ----------------------- Logo / Profile placeholder ----------------------- */
+function randomGradientSVG(size=128){
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4cc9f0"/><stop offset="0.5" stop-color="#7c3aed"/><stop offset="1" stop-color="#ff6b6b"/></linearGradient></defs><rect rx="${size/2}" ry="${size/2}" width="${size}" height="${size}" fill="url(#g1)"/></svg>`;
+  return 'data:image/svg+xml;base64,' + btoa(svg);
+}
+document.getElementById('logoImg').src = randomGradientSVG(96);
+topProfile.src = randomGradientSVG(128);
+
+/* ----------------------- localStorage ----------------------- */
+function loadChats(){ const raw = localStorage.getItem(STORAGE_KEY); return raw ? JSON.parse(raw) : []; }
+function saveChatToStorage(chat){
+  const all = loadChats();
+  const idx = all.findIndex(c => c.id===chat.id);
+  if(idx>=0) all[idx] = chat; else all.unshift(chat);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+  renderChatList();
+}
+function renderChatList(){
+  const all = loadChats();
+  chatListDiv.innerHTML = '';
+  if(all.length===0){ chatListDiv.innerHTML = '<div class="muted">No saved chats yet</div>'; return; }
+  all.forEach(c=>{
+    const d = document.createElement('div');
+    d.className = 'chat-item';
+    d.textContent = new Date(c.id).toLocaleString() + ' — ' + (c.messages[0]?.text?.slice(0,40) || 'New chat');
+    d.onclick = ()=>{ loadChatToUI(c); };
+    chatListDiv.appendChild(d);
+  });
+}
+function loadChatToUI(chat){
+  currentChat = chat;
+  chatArea.innerHTML = '';
+  chat.messages.forEach(m=> addBubble(m.text, m.sender, false));
+}
+
+/* ----------------------- Bubble ----------------------- */
+function addBubble(text, sender='assistant', save=true){
+  const b = document.createElement('div');
+  b.className = 'bubble ' + (sender==='user' ? 'user' : 'assistant');
+  b.textContent = text;
+  chatArea.appendChild(b);
+  chatArea.scrollTop = chatArea.scrollHeight;
+  if(save){ currentChat.messages.push({ sender, text, t: Date.now() }); saveChatToStorage(currentChat); }
+}
+
+/* ----------------------- Text-to-Speech (fixed voice selection) ----------------------- */
+let voices = [];
+
+function loadVoices(){
+  voices = speechSynthesis.getVoices();
+  if(!voices.length){
+    speechSynthesis.onvoiceschanged = () => {
+      voices = speechSynthesis.getVoices();
+    };
+  }
+}
+loadVoices();
+
+function speak(text){
+  if(!('speechSynthesis' in window)) return;
+  const utter = new SpeechSynthesisUtterance(text);
+
+  let selectedVoice;
+  if(speechVoiceGender==='female'){
+    selectedVoice = voices.find(v=>v.name.toLowerCase().includes('zira') || v.name.toLowerCase().includes('female'));
+  } else {
+    selectedVoice = voices.find(v=>v.name.toLowerCase().includes('david') || v.name.toLowerCase().includes('male'));
+  }
+  if(!selectedVoice) selectedVoice = voices[0];
+  utter.voice = selectedVoice;
+  speechSynthesis.speak(utter);
+}
+
+/* ----------------------- Modes ----------------------- */
+modes.forEach(b=>{
+  b.addEventListener('click', ()=>{
+    modes.forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    currentMode = b.dataset.mode;
+  });
+});
+document.querySelectorAll('input[name="voice"]').forEach(r=>r.addEventListener('change', ()=>speechVoiceGender=r.value));
+
+/* ----------------------- SEND FUNCTION (Backend integrated) ----------------------- */
+function handleSend(){
+  const text = userInput.value.trim();
+  if(!text) return;
+  addBubble(text,'user');
+  userInput.value = '';
+
+  // Call backend Flask
+  fetch('/ask',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({ text: text, voice: speechVoiceGender, speak: currentMode.includes('speech') })
+  }).then(res=>res.json()).then(data=>{
+    const answer = data.answer || '❌ No response';
+    if(currentMode==='text2text' || currentMode==='speech2text'){
+      addBubble(answer,'assistant');
+    } else if(currentMode==='text2speech' || currentMode==='speech2speech'){
+      speak(answer);
+      if(currentMode==='text2speech') addBubble(answer,'assistant'); // only show bubble for T→S
+    }
+  }).catch(err=>{
+    console.error(err);
+    addBubble('❌ Error: Could not fetch response','assistant');
+  });
+}
+sendBtn.addEventListener('click', handleSend);
+userInput.addEventListener('keypress', e=>{ if(e.key==='Enter') handleSend(); });
+
+/* ----------------------- Speech Recognition ----------------------- */
+function startListening(){
+  if(listening) return;
+  recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+  recognition.lang = 'en-US';
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+  recognition.start();
+  listening = true;
+  overlay.classList.add('show');
+  document.body.classList.add('dim-chat');
+
+  recognition.onresult = e=>{
+    const transcript = e.results[0][0].transcript;
+    overlay.classList.remove('show');
+    document.body.classList.remove('dim-chat');
+    listening = false;
+    userInput.value = transcript;
+    handleSend();
+  };
+  recognition.onerror = e=>{
+    console.error(e);
+    listening=false;
+    overlay.classList.remove('show');
+    document.body.classList.remove('dim-chat');
+  };
+  recognition.onend = ()=>{
+    listening=false;
+    overlay.classList.remove('show');
+    document.body.classList.remove('dim-chat');
+  };
+}
+inputMic.addEventListener('click', startListening);
+searchMic.addEventListener('click', startListening);
+stopBtn.addEventListener('click', ()=>{ recognition?.stop(); listening=false; overlay.classList.remove('show'); document.body.classList.remove('dim-chat'); });
+
+/* ----------------------- Profile Panel ----------------------- */
+topProfile.addEventListener('click', ()=>profilePanel.classList.add('show'));
+closeProfile.addEventListener('click', ()=>profilePanel.classList.remove('show'));
+saveProfile.addEventListener('click', ()=>{ alert('Profile saved!'); profilePanel.classList.remove('show'); });
+
+/* ----------------------- New Chat ----------------------- */
+newChatBtn.addEventListener('click', ()=>{ currentChat={id:Date.now(),messages:[]}; chatArea.innerHTML=''; saveChatToStorage(currentChat); });
+
+/* ----------------------- Theme ----------------------- */
+themeSelect.addEventListener('change', e=>{
+  const val = e.target.value;
+  if(val==='ocean') document.body.style.background='linear-gradient(-45deg,#134e7b,#4cc9f0,#00b4d8,#0077b6)';
+  else if(val==='galaxy') document.body.style.background='linear-gradient(-45deg,#0f0c29,#302b63,#24243e,#5b247a)';
+  else if(val==='forest') document.body.style.background='linear-gradient(-45deg,#1b5e20,#4caf50,#81c784,#a5d6a7)';
+  else document.body.style.background='linear-gradient(-45deg,#6f2dbd,#134e7b,#ff6b6b,#4cc9f0)';
+});
+
+/* ----------------------- Init ----------------------- */
+renderChatList();
+</script>
+</body>
+</html>  

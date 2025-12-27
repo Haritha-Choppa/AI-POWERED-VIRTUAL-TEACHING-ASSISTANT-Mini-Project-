@@ -1,0 +1,85 @@
+{
+    "explain c hello world step by step": {
+        "description": "This program prints 'Hello, World!' in C.",
+        "steps": [
+            "Step 1: Include the standard input-output header file using #include <stdio.h>.",
+            "Step 2: Define the main() function where the program execution starts.",
+            "Step 3: Use printf() function to print 'Hello, World!' on a new line.",
+            "Step 4: Return 0 to indicate successful execution."
+        ],
+        "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+    },
+    "explain cpp hello world step by step": {
+        "description": "This program prints 'Hello, World!' in C++.",
+        "steps": [
+            "Step 1: Include the iostream header for input-output operations.",
+            "Step 2: Use the std namespace to avoid prefixing std::.",
+            "Step 3: Define main() function.",
+            "Step 4: Use cout to print 'Hello, World!' and endl for a new line.",
+            "Step 5: Return 0 to indicate successful execution."
+        ],
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}"
+    },
+    "explain java hello world step by step": {
+        "description": "This program prints 'Hello, World!' in Java.",
+        "steps": [
+            "Step 1: Define a public class named HelloWorld.",
+            "Step 2: Define the main() method where execution starts.",
+            "Step 3: Use System.out.println() to print 'Hello, World!' on a new line."
+        ],
+        "code": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+    },
+    "explain javascript hello world step by step": {
+        "description": "This program prints 'Hello, World!' in JavaScript.",
+        "steps": [
+            "Step 1: Use console.log() function to print text to the console.",
+            "Step 2: Pass the string 'Hello, World!' as an argument.",
+            "Step 3: Run the script in a browser console or Node.js."
+        ],
+        "code": "console.log('Hello, World!');"
+    },
+    "explain c add two numbers step by step": {
+        "description": "This program adds two numbers in C and prints the result.",
+        "steps": [
+            "Step 1: Include stdio.h for input-output functions.",
+            "Step 2: Define main() function.",
+            "Step 3: Declare variables a, b, sum.",
+            "Step 4: Use scanf() to take input from the user.",
+            "Step 5: Add the two numbers and store in sum.",
+            "Step 6: Use printf() to print the result."
+        ],
+        "code": "#include <stdio.h>\n\nint main() {\n    int a, b, sum;\n    printf(\"Enter first number: \");\n    scanf(\"%d\", &a);\n    printf(\"Enter second number: \");\n    scanf(\"%d\", &b);\n    sum = a + b;\n    printf(\"Sum: %d\\n\", sum);\n    return 0;\n}"
+    },
+    "explain cpp add two numbers step by step": {
+        "description": "This program adds two numbers in C++ and prints the result.",
+        "steps": [
+            "Step 1: Include iostream and use namespace std.",
+            "Step 2: Define main() function.",
+            "Step 3: Declare two integer variables.",
+            "Step 4: Use cin to take input from the user.",
+            "Step 5: Add the two numbers and print using cout."
+        ],
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a, b;\n    cout << \"Enter first number: \";\n    cin >> a;\n    cout << \"Enter second number: \";\n    cin >> b;\n    cout << \"Sum: \" << (a + b) << endl;\n    return 0;\n}"
+    },
+    "explain java add two numbers step by step": {
+        "description": "This program adds two numbers in Java and prints the result.",
+        "steps": [
+            "Step 1: Import Scanner class from java.util package.",
+            "Step 2: Create Scanner object to read input.",
+            "Step 3: Take two integer inputs from the user.",
+            "Step 4: Add the two numbers.",
+            "Step 5: Print the result using System.out.println()."
+        ],
+        "code": "import java.util.Scanner;\n\npublic class AddNumbers {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter first number: \");\n        int a = sc.nextInt();\n        System.out.print(\"Enter second number: \");\n        int b = sc.nextInt();\n        int sum = a + b;\n        System.out.println(\"Sum: \" + sum);\n    }\n}"
+    },
+    "explain javascript add two numbers step by step": {
+        "description": "This program adds two numbers in JavaScript and prints the result.",
+        "steps": [
+            "Step 1: Take input from the user using prompt() function.",
+            "Step 2: Convert input to number using Number().",
+            "Step 3: Add the two numbers.",
+            "Step 4: Print the result using console.log()."
+        ],
+        "code": "let a = Number(prompt('Enter first number: '));\nlet b = Number(prompt('Enter second number: '));\nlet sum = a + b;\nconsole.log('Sum:', sum);"
+    }
+}

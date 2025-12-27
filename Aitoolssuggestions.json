@@ -1,0 +1,100 @@
+{
+  "suggest_ai_tools": {
+    "for writing and content creation": [
+      "ChatGPT - AI language model for generating text, answering questions, and brainstorming ideas.",
+      "Jasper AI - AI writing assistant for blogs, emails, social media content, and marketing copy.",
+      "Copy.ai - AI tool for ad copy, product descriptions, and creative content generation.",
+      "Wordtune AI - Enhances writing style, grammar, and tone using AI.",
+      "QuillBot - AI paraphrasing and summarization tool for content improvement.",
+      "Peppertype AI - AI writing assistant for marketing, blogs, and social media posts.",
+      "HyperWrite - AI tool for drafting, editing, and improving text content.",
+      "Frase AI - AI tool to create SEO-optimized content and summaries.",
+      "Sassbook AI - AI writing assistant for story generation, blogs, and text completion.",
+      "Rytr AI - Generates high-quality content for emails, blogs, and social media."
+    ],
+    "for image generation and design": [
+      "DALL-E - Generates realistic images from text prompts.",
+      "MidJourney - AI-based tool for creating artistic images from descriptions.",
+      "Canva AI - Provides AI-powered design suggestions and image generation.",
+      "Artbreeder - AI platform to create and evolve images and characters.",
+      "Runway ML - AI creative suite for image generation and video editing.",
+      "DeepArt - Transforms photos into artistic images using neural networks.",
+      "Reimagine AI - Generates creative images and artwork from text prompts.",
+      "Looka AI - AI-powered logo and branding design platform.",
+      "Lensa AI - AI photo editing and enhancement for selfies and portraits.",
+      "Wombo AI - AI-generated digital artwork and animations."
+    ],
+    "for coding assistance": [
+      "GitHub Copilot - AI coding assistant suggesting code snippets in real-time.",
+      "Replit AI - Provides AI coding help and code generation in online IDE.",
+      "OpenAI Codex - AI model for code generation and understanding in multiple languages.",
+      "Diffblue AI - Automates Java code generation and testing using AI.",
+      "Kite AI - AI-powered code completions and suggestions in IDEs.",
+      "Tabnine - AI assistant for code completion and productivity enhancement.",
+      "CodiumAI - AI tool to automatically generate unit tests and improve code quality.",
+      "CodeWP - AI tool for WordPress development and code generation.",
+      "MutableAI - Enhances coding workflow using AI-assisted refactoring and suggestions.",
+      "PolyCoder - AI model for code generation in multiple programming languages."
+    ],
+    "for video and audio creation": [
+      "Synthesia AI - Generates videos with AI avatars and voiceovers from text.",
+      "Eleven Labs AI - Creates realistic AI voice narration for videos and presentations.",
+      "Soundraw AI - Generates royalty-free music based on AI-selected mood and style.",
+      "Beatoven AI - Custom AI-generated music for content creators and ads.",
+      "Murf AI - AI voiceover generation for videos, podcasts, and presentations.",
+      "Play.ht - AI text-to-speech platform creating realistic audio from text.",
+      "DeepBrain AI - AI platform for video creation, avatars, and automated dubbing.",
+      "Veed.io AI - AI-assisted video editing and captioning tool.",
+      "Wisecut AI - Automatically edits and generates videos using AI.",
+      "Descript AI - AI-powered video and audio editing platform with transcription."
+    ],
+    "for meetings and transcription": [
+      "Otter AI - AI transcription for meetings, lectures, and interviews.",
+      "Fireflies AI - Records, transcribes, and summarizes meetings automatically.",
+      "Speechify - Converts text into natural-sounding AI-generated speech.",
+      "Sonix AI - AI transcription and translation platform for audio and video files.",
+      "Trint AI - AI tool for transcription, captions, and video content management.",
+      "Avoma AI - AI meeting assistant for transcription, notes, and insights.",
+      "Fathom AI - Records and summarizes video meetings with AI-generated highlights.",
+      "Voicera - AI transcription and voice assistant for meetings and calls.",
+      "Rev AI - Speech-to-text transcription service using AI.",
+      "Sembly AI - AI meeting assistant that captures notes, highlights, and summaries."
+    ],
+    "for AI experimentation and ML": [
+      "Runway ML - AI creative suite for video, image, and ML model integration.",
+      "H2O.ai - Platform for building predictive models and machine learning workflows.",
+      "Spell AI - Platform for training and managing AI experiments in the cloud.",
+      "OpenAI Gym - Toolkit for developing and comparing reinforcement learning algorithms.",
+      "TensorFlow - Open-source ML framework for building AI models.",
+      "PyTorch - Open-source deep learning framework for AI research and deployment.",
+      "Kaggle - Platform for AI/ML competitions, datasets, and notebooks.",
+      "Cohere AI - NLP platform for building language models and embeddings.",
+      "AI21 Studio - Provides AI language models for text generation and summarization.",
+      "Google AI - Offers APIs and frameworks for computer vision, NLP, and ML tasks."
+    ],
+    "for voice and speech applications": [
+      "Eleven Labs AI - AI voice generation for narration and dubbing.",
+      "Murf AI - Realistic AI voiceovers for audio and video.",
+      "Play.ht - Text-to-speech platform with natural AI voices.",
+      "Speechify - Converts text to AI-generated speech for accessibility.",
+      "Resemble AI - AI voice cloning and generation tool.",
+      "Voicemod AI - Real-time voice modulation using AI.",
+      "Replica Studios - AI voice acting and audio generation.",
+      "Altered Studio - AI voice alteration and dubbing for content creators.",
+      "Descript Overdub - AI tool to clone voices and edit audio.",
+      "WellSaid Labs - AI voice synthesis for narration and learning content."
+    ],
+    "for business, analytics, and productivity": [
+      "X.ai - AI scheduling assistant for automated meeting planning.",
+      "Timedoctor AI - AI insights for productivity and work pattern analysis.",
+      "Notion AI - AI assistant for notes, content generation, and task management.",
+      "Beautiful AI - AI tool for creating presentations automatically.",
+      "Cleanshot AI - Enhances screen recording, annotation, and editing workflows.",
+      "Hyperwrite - AI tool for professional writing assistance.",
+      "Humata AI - Summarizes and answers questions from documents and PDFs.",
+      "You.com AI - AI-powered search engine with summaries and chat functionality.",
+      "Chorus.ai - AI-powered meeting analytics and sales insights.",
+      "Gong.io - AI platform for conversation intelligence and business insights."
+    ]
+  }
+}

@@ -1,0 +1,1155 @@
+[
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'hello'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "my assistant"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'my assistant'. Sorry, I don't have an answer for this yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It involves learning, reasoning, and self-correction. AI applications include expert systems, natural language processing, speech recognition, and machine vision. The goal is to make machines perform tasks that require human-like intelligence, such as decision-making, problem-solving, and understanding language."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It involves learning, reasoning, and self-correction. AI applications include expert systems, natural language processing, speech recognition, and machine vision. The goal is to make machines perform tasks that require human-like intelligence, such as decision-making, problem-solving, and understanding language."
+  },
+  {
+    "role": "user",
+    "content": "what is civil engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "Civil Engineering is the design, construction, and maintenance of infrastructure like buildings, bridges, roads, dams, and water supply systems. It ensures safe and sustainable development."
+  },
+  {
+    "role": "user",
+    "content": "what is machine learning"
+  },
+  {
+    "role": "assistant",
+    "content": "Machine Learning (ML) is a branch of AI that allows systems to learn from data and improve their performance without being explicitly programmed. It uses algorithms to detect patterns and make predictions. Example: A spam filter learns to recognize spam emails from past examples."
+  },
+  {
+    "role": "user",
+    "content": "what is machine"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is machine'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "What is mission learning"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'What is mission learning'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "What is mission learning"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'What is mission learning'. Sorry, I don't have an answer for this yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial Intel"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial Intel'. Sorry, I don't have an answer for this yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial Intel"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial Intel'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "hello"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'hello'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial intelligence'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence what is civil engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial intelligence what is civil engineering'. Sorry, I don't have an answer for this yet."
+  },
+  {
+    "role": "user",
+    "content": "what is civil"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is civil'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is machine learning"
+  },
+  {
+    "role": "assistant",
+    "content": "Machine Learning (ML) is a branch of AI that allows systems to learn from data and improve their performance without being explicitly programmed. It uses algorithms to detect patterns and make predictions. Example: A spam filter learns to recognize spam emails from past examples."
+  },
+  {
+    "role": "user",
+    "content": "what is machine learning"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is machine learning'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "quite"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'quite'. Sorry, I don't have an answer for this yet."
+  },
+  {
+    "role": "user",
+    "content": "quite"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'quite'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is AI"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is AI'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ML"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is ML'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is AI"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is AI'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is AI"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is AI'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is ai'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is signal and system"
+  },
+  {
+    "role": "assistant",
+    "content": "Signal and System is a subject that studies the analysis and processing of signals using mathematical tools."
+  },
+  {
+    "role": "user",
+    "content": "what is deep learning"
+  },
+  {
+    "role": "assistant",
+    "content": "Deep Learning is a subset of machine learning that uses multi-layered neural networks to model complex patterns in data."
+  },
+  {
+    "role": "user",
+    "content": "applications of ai in real life"
+  },
+  {
+    "role": "assistant",
+    "content": "AI is used everywhere — virtual assistants (Siri, Alexa), self-driving cars, medical diagnosis, fraud detection, recommendation systems (Netflix, YouTube), chatbots, and robotics. Each application uses AI to automate complex tasks and enhance efficiency."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It involves learning, reasoning, and self-correction. AI applications include expert systems, natural language processing, speech recognition, and machine vision. The goal is to make machines perform tasks that require human-like intelligence, such as decision-making, problem-solving, and understanding language."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intel"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial intel'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intel"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is artificial intel'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is a"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is a'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is ai'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is a"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is a'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is fire"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is fire'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is css"
+  },
+  {
+    "role": "assistant",
+    "content": "CSS (Cascading Style Sheets) is used to style and layout web pages including colors, fonts, and spacing."
+  },
+  {
+    "role": "user",
+    "content": "what is c"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is c'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is css"
+  },
+  {
+    "role": "assistant",
+    "content": "CSS (Cascading Style Sheets) is used to style and layout web pages including colors, fonts, and spacing."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It involves learning, reasoning, and self-correction. AI applications include expert systems, natural language processing, speech recognition, and machine vision. The goal is to make machines perform tasks that require human-like intelligence, such as decision-making, problem-solving, and understanding language."
+  },
+  {
+    "role": "user",
+    "content": "what is natural language processing"
+  },
+  {
+    "role": "assistant",
+    "content": "NLP is a branch of AI that helps computers understand, interpret, and respond to human language."
+  },
+  {
+    "role": "user",
+    "content": "what is cloud computing"
+  },
+  {
+    "role": "assistant",
+    "content": "Cloud computing is the delivery of computing services over the Internet, such as storage, servers, and databases, allowing on-demand access."
+  },
+  {
+    "role": "user",
+    "content": "what is python"
+  },
+  {
+    "role": "assistant",
+    "content": "Python is a high-level, interpreted programming language known for its simplicity and readability."
+  },
+  {
+    "role": "user",
+    "content": "what is java"
+  },
+  {
+    "role": "assistant",
+    "content": "Java is an object-oriented programming language that is platform independent and widely used for building enterprise applications."
+  },
+  {
+    "role": "user",
+    "content": "what are applications of"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what are applications of'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ethical hacking"
+  },
+  {
+    "role": "assistant",
+    "content": "Ethical hacking involves legally breaking into computers to find security vulnerabilities before malicious hackers do."
+  },
+  {
+    "role": "user",
+    "content": "what is microprocessor"
+  },
+  {
+    "role": "assistant",
+    "content": "A microprocessor is an integrated circuit that contains all the functions of a CPU on a single chip."
+  },
+  {
+    "role": "user",
+    "content": "what is deep learning"
+  },
+  {
+    "role": "assistant",
+    "content": "Deep Learning is a subset of machine learning that uses multi-layered neural networks to model complex patterns in data."
+  },
+  {
+    "role": "user",
+    "content": "what is signal and system"
+  },
+  {
+    "role": "assistant",
+    "content": "Signal and System is a subject that studies the analysis and processing of signals using mathematical tools."
+  },
+  {
+    "role": "user",
+    "content": "what is cloud service model"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is cloud service model'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is javascript"
+  },
+  {
+    "role": "assistant",
+    "content": "JavaScript is a scripting language used to create dynamic and interactive effects within web browsers."
+  },
+  {
+    "role": "user",
+    "content": "what is full stack development"
+  },
+  {
+    "role": "assistant",
+    "content": "Full Stack Development involves both front-end and back-end web development, including databases and APIs."
+  },
+  {
+    "role": "user",
+    "content": "what is html"
+  },
+  {
+    "role": "assistant",
+    "content": "HTML stands for HyperText Markup Language, used to create the structure of web pages."
+  },
+  {
+    "role": "user",
+    "content": "what is environmental engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "Environmental Engineering focuses on improving water, air, and soil quality, managing waste, and implementing sustainable practices to protect human health and ecosystems."
+  },
+  {
+    "role": "user",
+    "content": "what is your technical engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is your technical engineering'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is transportation engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "Transportation Engineering deals with planning, design, operation, and maintenance of safe and efficient transportation systems like roads, railways, and airports."
+  },
+  {
+    "role": "user",
+    "content": "what is civil engineering"
+  },
+  {
+    "role": "assistant",
+    "content": "Civil Engineering is the design, construction, and maintenance of infrastructure like buildings, bridges, roads, dams, and water supply systems. It ensures safe and sustainable development."
+  },
+  {
+    "role": "user",
+    "content": "what is an operating system"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'what is an operating system'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is operating system"
+  },
+  {
+    "role": "assistant",
+    "content": "An Operating System is system software that manages computer hardware and software resources and provides common services for programs."
+  },
+  {
+    "role": "user",
+    "content": "what is database management system"
+  },
+  {
+    "role": "assistant",
+    "content": "A DBMS is software that manages databases, allowing users to store, modify, and retrieve data efficiently."
+  },
+  {
+    "role": "user",
+    "content": "what is internet of things"
+  },
+  {
+    "role": "assistant",
+    "content": "The Internet of Things (IoT) refers to interconnected devices that communicate and share data over the internet."
+  },
+  {
+    "role": "user",
+    "content": "what is c language"
+  },
+  {
+    "role": "assistant",
+    "content": "C is a powerful low-level programming language used for system programming and embedded systems."
+  },
+  {
+    "role": "user",
+    "content": "what is c plus plus"
+  },
+  {
+    "role": "assistant",
+    "content": "C++ is an extension of C language that includes object-oriented programming features such as classes and objects."
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "AI stands for Artificial Intelligence — the simulation of human intelligence in machines."
+  },
+  {
+    "role": "user",
+    "content": "what is cloud computing"
+  },
+  {
+    "role": "assistant",
+    "content": "Cloud computing is the delivery of computing services over the Internet, such as storage, servers, and databases, allowing on-demand access."
+  },
+  {
+    "role": "user",
+    "content": "give hello world program"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'give hello world program'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain python simple"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'explain python simple'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain python simple while loop step by step"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'explain python simple while loop step by step'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain simple explain python simple while loop"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'explain simple explain python simple while loop'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain python print"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'explain python print'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain python print"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question: 'explain python print'. Sorry, I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain cloud computing"
+  },
+  {
+    "role": "assistant",
+    "content": "Cloud computing is the delivery of computing services over the Internet, such as storage, servers, and databases, allowing on-demand access."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=HiGXD6eDmcUQXglD"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry bro 😅 I couldn’t get any readable content from that link."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://myengineering.vercel.app/"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: Webpage\n🧠 Summary:\nWebsite fetch error: HTTPSConnectionPool(host='myengineering.vercel.app', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B248415A90>, 'Connection to myengineering.vercel.app timed out. (connect timeout=10)'))\n\n🔑 Keywords: myengineering, vercel, app, connection, website, fetch, error, httpsconnectionpool\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n🎥 YouTube Video Explanation:\n🧠 Summary of what the speaker explained:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html\n\nWorking of WWW | Architecture of WWW\n\nIn this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation.\n\n#World_Wide_Web\n#Working_of_World_Wide_Web\n#Architecture_of_World_Wide_Web\n#Working_of_WWW\n#Architecture_of_WWW\n#chirag_bhalodia\n#chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "Error fetching transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "Error fetching transcript: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "Sorry 😔 Couldn’t extract spoken content from that video."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n🎥 YouTube Video Explanation:\n🧠 Summary of what the speaker explained:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html\n\nWorking of WWW | Architecture of WWW\n\nIn this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation.\n\n#World_Wide_Web\n#Working_of_World_Wide_Web\n#Architecture_of_World_Wide_Web\n#Working_of_WWW\n#Architecture_of_WWW\n#chirag_bhalodia\n#chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "[Transcript not available — showing description]\n\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html\n\nWorking of WWW | Architecture of WWW\n\nIn this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation.\n\n#World_Wide_Web\n#Working_of_World_Wide_Web\n#Architecture_of_World_Wide_Web\n#Working_of_WWW\n#Architecture_of_WWW\n#chirag_bhalodia\n#chiragbhalodia"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "Transcript fetch error: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "Transcript fetch error: type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  },
+  {
+    "role": "user",
+    "content": "https://www.youtube.com/watch?v=2ePf9rue1Ao"
+  },
+  {
+    "role": "assistant",
+    "content": "Could not fetch transcript, auto-captions, or description."
+  },
+  {
+    "role": "user",
+    "content": "https://chatgpt.com/c/68e510fe-35bc-8324-b8a9-e0779546254f"
+  },
+  {
+    "role": "assistant",
+    "content": "Enable JavaScript and cookies to continue"
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence enables machines to simulate human intelligence for decision-making, learning, and reasoning."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence enables machines to simulate human intelligence for decision-making, learning, and reasoning."
+  },
+  {
+    "role": "user",
+    "content": "what is java"
+  },
+  {
+    "role": "assistant",
+    "content": "Java is an object-oriented programming language that is platform independent and widely used for building enterprise applications."
+  },
+  {
+    "role": "user",
+    "content": "what is java"
+  },
+  {
+    "role": "assistant",
+    "content": "Java is an object-oriented programming language that is platform independent and widely used for building enterprise applications."
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence enables machines to simulate human intelligence for decision-making, learning, and reasoning."
+  },
+  {
+    "role": "user",
+    "content": "play blah blah lata"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question 'play blah blah lata', but I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "quite"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood your question 'quite', but I don't have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "variational auto encoders ante enti explain in chat style"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'variational auto encoders ante enti explain in chat style', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "AI stands for Artificial Intelligence — the simulation of human intelligence in machines."
+  },
+  {
+    "role": "user",
+    "content": "what is ml"
+  },
+  {
+    "role": "assistant",
+    "content": "Machine Learning is a subset of AI where computers learn from data without being explicitly programmed."
+  },
+  {
+    "role": "user",
+    "content": "what is nlp"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'what is nlp', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is natural language processing"
+  },
+  {
+    "role": "assistant",
+    "content": "NLP is a branch of AI that helps computers understand, interpret, and respond to human language."
+  },
+  {
+    "role": "user",
+    "content": "what is cloud computing"
+  },
+  {
+    "role": "assistant",
+    "content": "Cloud computing is the delivery of computing services over the Internet, such as storage, servers, and databases, allowing on-demand access."
+  },
+  {
+    "role": "user",
+    "content": "Variational Autoencoders (VAE)"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'variational autoencoders (vae)', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "Variational Autoencoders (VAE)"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'variational autoencoders (vae)', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "\"https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_\":"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood '\"https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_\":', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "\"https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_\":"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood '\"https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_\":', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "AI stands for Artificial Intelligence — the simulation of human intelligence in machines."
+  },
+  {
+    "role": "user",
+    "content": "what is ml"
+  },
+  {
+    "role": "assistant",
+    "content": "Machine Learning is a subset of AI where computers learn from data without being explicitly programmed."
+  },
+  {
+    "role": "user",
+    "content": "xplain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'xplain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "Variational Autoencoders (VAE)"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'variational autoencoders (vae)', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain c hello world step by step"
+  },
+  {
+    "role": "assistant",
+    "content": {
+      "description": "This program prints 'Hello, World!' in C.",
+      "steps": [
+        "Step 1: Include the standard input-output header file using #include <stdio.h>.",
+        "Step 2: Define the main() function where the program execution starts.",
+        "Step 3: Use printf() function to print 'Hello, World!' on a new line.",
+        "Step 4: Return 0 to indicate successful execution."
+      ],
+      "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+    }
+  },
+  {
+    "role": "user",
+    "content": "what is computer science"
+  },
+  {
+    "role": "assistant",
+    "content": "Computer Science is the study of computers and computational systems, focusing on algorithms, programming, data structures, and software design."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/4SLNeaXPsaA?si=_Cq14PNsCTUpr05v"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\ncomputer networks in telugu computer networks playlist computer networks for interview computer networks interview questions computer networks gate cse computer networks r22 Agenda - 1. Computer networks introduction 2. IPV4 addressing 3. OSI model 4. Application layer 5. Presentation layer 6. Session layer 7. Transport layer 8. Network layer 9. Data link layer 10. Physical layer ──────────────────────────────── Let's Connect 👉 Instagram: https://www.instagram.com/vamsi_bhavani/ 👉 LinkedIn: https://in.linkedin.com/in/sai-sankara-kesava-nath-panda-ab3b8a18b ──────────────────────────────── Playlists Worth Watching 👉 Python Language : https://www.youtube.com/playlist?list=PLNgoFk5SYUglQOaXSY8lAlPXmK6tQBHaw 👉 Java Language : https://www.youtube.com/playlist?list=PLNgoFk5SYUgmv-wv3aOupxr82c53KJDOB 👉 C++ Langauage : https://www.youtube.com/playlist?list=PLNgoFk5SYUglsFq6H2WkQODuzsQyyRrPl 👉 C Language : https://www.youtube.com/playlist?list=PLNgoFk5SYUgn5L4ocsA6FTvqKLSzp_8wF 👉 CS Fundame\n\n🔑 Keywords: computer, networks, layer, https, com, playlist, www, youtube\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "what is ai"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on your local data:\n\netflix, youtube), chatbots, and robotics. each application uses ai to automate complex tasks and enhance efficiency.\", \"what is ai\": \"ai stands for artificial intelligence \\u2014 the simulation of human intelligence in machines.\", \"what is ml\": \"machine learning is a subset of ai where computers learn from data without being explicitly programmed.\", \"what is python\": \"python is a high-level, interpreted programming language known for its simplicity and readability.\", \"what is cloud computing\": \"\n\ny\": \"renewable energy comes from natural sources that are constantly replenished, like solar, wind, and hydro power.\", \"what is ai in civil engineering\": \"ai in civil engineering helps in predictive maintenance, structural analysis, and construction planning using data-driven methods.\", \"what is ai in mechanical engineering\": \"ai in mechanical engineering is used in automation, predictive maintenance, and intelligent control systems.\", \"what is ai in electrical engineering\": \"ai in electrical en"
+  },
+  {
+    "role": "user",
+    "content": "what is artificial intelligence"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial Intelligence enables machines to simulate human intelligence for decision-making, learning, and reasoning."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "what is Ai"
+  },
+  {
+    "role": "assistant",
+    "content": "Based on your local data:\n\netflix, youtube), chatbots, and robotics. each application uses ai to automate complex tasks and enhance efficiency.\", \"what is ai\": \"ai stands for artificial intelligence \\u2014 the simulation of human intelligence in machines.\", \"what is ml\": \"machine learning is a subset of ai where computers learn from data without being explicitly programmed.\", \"what is python\": \"python is a high-level, interpreted programming language known for its simplicity and readability.\", \"what is cloud computing\": \"\n\ny\": \"renewable energy comes from natural sources that are constantly replenished, like solar, wind, and hydro power.\", \"what is ai in civil engineering\": \"ai in civil engineering helps in predictive maintenance, structural analysis, and construction planning using data-driven methods.\", \"what is ai in mechanical engineering\": \"ai in mechanical engineering is used in automation, predictive maintenance, and intelligent control systems.\", \"what is ai in electrical engineering\": \"ai in electrical en"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\n📚 Source: YouTube Video Description 🧠 Summary: Follow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia 🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n\n🔑 Keywords: www, architecture, working, explained, tier, video, follow, blog\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nCouldn’t extract content from this YouTube video.\n\n🔑 Keywords: couldn, extract, content, from, youtube, video\n"
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is AI"
+  },
+  {
+    "role": "assistant",
+    "content": "AI stands for Artificial Intelligence — the simulation of human intelligence in machines."
+  },
+  {
+    "role": "user",
+    "content": "introduction"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'introduction', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "what is cloud computing"
+  },
+  {
+    "role": "assistant",
+    "content": "Cloud computing is the delivery of computing services over the Internet, such as storage, servers, and databases, allowing on-demand access."
+  },
+  {
+    "role": "user",
+    "content": "applications of ai in real life"
+  },
+  {
+    "role": "assistant",
+    "content": "AI is used everywhere — virtual assistants (Siri, Alexa), self-driving cars, medical diagnosis, fraud detection, recommendation systems (Netflix, YouTube), chatbots, and robotics. Each application uses AI to automate complex tasks and enhance efficiency."
+  },
+  {
+    "role": "user",
+    "content": "https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "I understood 'explain this youtube link content https://youtu.be/kyoybe8qvw4?si=izyen542orru0m7_', but I don’t have an answer yet."
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "💬 Q&A Answer:\nI understood 'explain this youtube link content', but I don’t have an answer yet.\n\n\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "💬 Q&A Answer:\nI understood 'explain this youtube link content', but I don’t have an answer yet.\n\n\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "💬 Q&A Answer:\nI understood 'explain this youtube link content', but I don’t have an answer yet.\n\n\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "💬 Q&A Answer:\nI understood 'explain this youtube link content', but I don’t have an answer yet.\n\n\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  },
+  {
+    "role": "user",
+    "content": "explain this youtube link content https://youtu.be/kyOyBE8qVw4?si=IZYen542oRrU0M7_"
+  },
+  {
+    "role": "assistant",
+    "content": "💬 Q&A Answer:\nI understood 'explain this youtube link content', but I don’t have an answer yet.\n\n\n📚 Source: YouTube Video\n🧠 Summary:\nFollow my blog: https://www.edu-resources1.com/2021/12/world-wide-web-www.html Working of WWW | Architecture of WWW In this video, I have explained Working of WWW (Architecture of WWW). WWW uses 2-tier Architecture (Client - Server Architecture). 2-tier architecture of WWW is explained with animation. #World_Wide_Web #Working_of_World_Wide_Web #Architecture_of_World_Wide_Web #Working_of_WWW #Architecture_of_WWW #chirag_bhalodia #chiragbhalodia\n\n🔑 Keywords: www, architecture, working, explained, tier, follow, blog, https\n"
+  }
+]
